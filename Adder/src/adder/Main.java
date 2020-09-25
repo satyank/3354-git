@@ -9,6 +9,23 @@ public class Main {
         } catch (Exception e) {
             System.err.println("Please provide two integers to add");
         }
+        
+        // extra error messages
+        try {
+            int result = addArguments(args);
+            System.out.println(result);
+        } catch (Exception e) {
+            System.err.println("Invalid character");
+        }
+        
+        try {
+            int result = addArguments(args);
+            System.out.println(result);
+        } catch (Exception e) {
+            System.err.println("Not enough arguments");
+        }
+        
+        
     }
 
     private static int addArguments(String[] args) {
