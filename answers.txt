@@ -1,0 +1,9 @@
+a) 3 commits
+b) 4 years ago
+c) git log shows you the commited snapshots. Whereas git status allows you
+to see the directory and staging area
+d) Unstaged changes are those changes which are not tracked by git. Untracked
+files are those files which are not in your working directory or in the staging
+area.
+e) git checkout is updating the working tree. Whereas git reset is updating a index.
+f) The files will not merge into the master branch as no commits have been made.
