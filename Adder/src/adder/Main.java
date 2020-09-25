@@ -12,6 +12,15 @@ public class Main {
     }
 
     private static int addArguments(String[] args) {
-        return Integer.valueOf(args[0]) + Integer.valueOf(args[1]);
+        //return Integer.valueOf(args[0]) + Integer.valueOf(args[1]);
+        
+        int sum = 0;
+        
+        for (int i = 0; i < args.length; ++i){
+            sum += Integer.valueOf(args[i]);
+        }
+        
+        return sum;
+        
     }
 }
